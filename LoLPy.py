@@ -35,6 +35,7 @@ def add_teamcomp():
 index=0
 while index<1:
     check=input("What do you want to do?")
+    check=check.lower()
     if check=="build":
         bchampion=input("Which champion?")
         ask_build()
@@ -66,12 +67,11 @@ while index<1:
         for x in team_comp:
             print(x,team_comp[x])
     if check=="help":
-        print("You can do the following: Build, Runes, Add, Full setup, team comp, add team comp, help")
+        print("You can do the following: build, runes, add, full setup, team comp, add teamcomp, help(capitalize champion names and team compositions:Irelia, or for team comp:Funnel")
     if check=="close":
         tprint("BYE","rnd-xlarge")
         time.sleep(2)
         index+=1
-
 
         
 
