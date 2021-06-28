@@ -1,7 +1,6 @@
 from art import *
 import time
 tprint("Welcome to League of Python")
-tprint("You can check builds, runes, and more")
 build={
     "Irelia":"BoTRK, Stride Breaker, Plated Steecaps, Titanic Hydra, Deaths Dance, Guardian Angel",
     "Akali":"Rift Maker, Sorcerors Shoes, Demonic Embrace, Lich Bane, Void Staff, Zhonyas Hour Glass",
